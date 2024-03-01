@@ -1,0 +1,136 @@
+
+.main{
+  height: 100%;
+}
+#nav{
+  height: 100px;
+  /* background-color: rebeccapurple; */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+}  
+#nav-part1{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+#nav-part1 h3{
+  font-size: 16px;
+  border: 2px solid black;
+  padding: 5px 10px;
+  border-radius: 50px;
+}
+#nav-part1 i{
+  font-size: 16px;
+  border: 2px solid black;
+  padding: 5px 10px;
+  border-radius: 50px;
+}
+#nav-part2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#nav-part2 i{
+background-color: orangered;
+border-radius: 50px;
+width: 25px;
+height: 25px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+
+}
+#nav-part2 .h1{
+  font-size: 22px;
+ text-transform:uppercase;
+ font-weight: 500;
+}
+#nav-part3{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  gap: 5px;
+}
+#nav-part3 button{
+ /* text-transform:uppercase; */
+ padding: 7px 12px;
+ border-radius: 50px;
+ /* background-color: transparent; */
+ border: 2px solid #000;
+ font-weight:600 ;
+}
+button.btn2{
+ background-color: rgb(255, 85, 24);
+ color: white;
+ border: 0px solid none;
+   
+}
+.main >h1{
+  font-weight: 600;
+  font-size: 170px;
+  text-transform: uppercase;
+  position:absolute;
+  top: 50%;
+  margin: 0px;
+  left: 50%;
+  transform: translate(-50% ,-50%);
+  width: 100%;
+  text-align:center;
+
+}
+img{
+  height: 500px;
+  width: 350px;
+  object-fit:cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+}
+
+#img1{
+  transform: translate(-50% ,-50%) rotate(-30deg);
+}
+
+#img2{
+  transform: translate(-50% ,-50%) rotate(-20deg);
+}
+
+#img3{
+  transform: translate(-50% ,-50%) rotate(-10deg);
+}
+
+#img4{
+  transform: translate(-50% ,-50%) rotate(-0deg);
+}
+#btn-left{
+  position: absolute;
+  bottom: 5px;
+  left: 3%;
+}
+#btn-right{
+  position: absolute;
+  bottom: 5px;
+  right: 3%;
+  justify-content: center;
+}
+#icons{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  height: 20px;
+  align-items: center;
+  /* background-color: blueviolet; */
+}
+#icons i {
+  font-size: 17px;
+  /* border: 2px solid black; */
+  padding: 5px 10px;
+  border-radius: 50px;
+}
